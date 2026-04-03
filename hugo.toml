@@ -1,0 +1,8 @@
+baseURL = 'https://chm123.github.io/'
+locale = 'zh-tw'
+title = 'Hsi-Ming 的筆記'
+theme = 'hugo-book'
+
+[params]
+  BookTheme = 'auto' # 支援跟隨讀者系統自動切換深/淺色模式
+  BookSearch = true  # 開啟左側欄的全文搜尋功能
