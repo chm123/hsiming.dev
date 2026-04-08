@@ -1,4 +1,4 @@
-baseURL = 'https://chm123.github.io/'
+baseURL = 'https://hsiming.dev/'
 locale = 'zh-tw'
 title = 'Hsi-Ming 的筆記'
 theme = 'hugo-book'

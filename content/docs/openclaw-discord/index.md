@@ -75,7 +75,7 @@ openclaw gateway restart
 > <server_id>
 > 完成 Discord 設定
 
-- 如果 Discord 是第一個 OpenClaw 頻道，我們必須使用 CLI 或 OpenClaw 設定頁面
+- 如果 Discord 是第一個 OpenClaw 頻道（還沒有設置任何頻道比如 Telegram 的話），我們就必須使用 CLI 或到 OpenClaw 設定頁面，更改 openclaw.json
 
 ```javascript
 {
