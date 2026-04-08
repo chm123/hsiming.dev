@@ -1,8 +1,27 @@
 baseURL = 'https://hsiming.dev/'
-locale = 'zh-tw'
-title = 'Hsi-Ming 的筆記'
 theme = 'hugo-book'
 
+# 1. 告訴系統目前的預設語言是繁體中文
+defaultContentLanguage = 'zh-tw'
+
+# --- 你原本的外觀與搜尋設定保持不變 ---
 [params]
   BookTheme = 'auto' # 支援跟隨讀者系統自動切換深/淺色模式
   BookSearch = true  # 開啟左側欄的全文搜尋功能
+
+# --- 2. 開啟多國語言引擎 ---
+[languages]
+
+  # 中文版專屬設定
+  [languages.zh-tw]
+    languageName = '繁體中文'
+    languageCode = 'zh-tw'
+    title = 'Hsi-Ming 的筆記'
+    weight = 1
+
+  # 英文版專屬設定 (未來備用)
+  [languages.en]
+    languageName = 'English'
+    languageCode = 'en'
+    title = "Hsi-Ming's Notes"
+    weight = 2
